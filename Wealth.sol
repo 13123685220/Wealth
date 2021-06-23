@@ -11,7 +11,7 @@ import "./SafeMath.sol";
 import './FixedPoint.sol';
 
 
-contract WhaleFall is Context, IERC20, Ownable {
+contract Wealth is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
     using FixedPoint for FixedPoint.uq144x112;
